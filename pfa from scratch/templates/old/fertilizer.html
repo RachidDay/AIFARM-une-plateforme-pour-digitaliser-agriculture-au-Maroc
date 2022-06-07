@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Contact Us - Brand</title>
+    <link rel="stylesheet" href="/static/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="/static/assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="/static/assets/css/Ludens---Country-State-City-selects.css">
+    <link rel="stylesheet" href="/static/assets/css/NZDropdown-Singlee.css">
+    <link rel="stylesheet" href="/static/assets/css/vanilla-zoom.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="/">AIFARM</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page contact-us-page">
+        <section class="clean-block clean-form dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">fertilizer-recommendation</h2>
+                    <p>Find the most suitable fertilizer for your crops</p>
+                </div>
+                <div>
+                    <form method="post" action="/fertilizer-predict" onsubmit="return validation();" name="myform2">
+                        <div class="mb-3">
+                            <div><label class="form-label" for="Nitrogen">Nitrogen</label><input class="form-control form-control-sm" type="number" name="nitrogen" placeholder="Nitrogen quantity ( example : 50 )" minlength="1" maxlength="3" min="0" max="145" required="">
+                                <div>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="mb-3"><label class="form-label" for="Phosphorous">Phosphorous</label><input class="form-control form-control-sm" type="number" name="phosphorous" placeholder="Phosphorous quantity ( example : 50 )" minlength="1" maxlength="3" min="2" max="150" required=""></div>
+                            <div><label class="form-label" for="Potassium">Potassium</label><input class="form-control form-control-sm" type="number" name="potassium" placeholder="Potassium quantity ( example : 50 )" minlength="1" maxlength="3" min="3" max="210" required="">
+                                <p></p>
+                            </div>
+                            <div class="fs-6"><label class="form-label" for="crop">Crop you want to grow</label><select id="crop" name="cropname" class="form-select from-select-lg" style="height: 28px;padding-top: 3px;padding-bottom: 3px;font-size: 12px;width: 100%;" required>
+    
+    <option selected>Select crop</option>
+        <option>rice</option>
+        <option>maize</option>
+        <option>chickpea</option>
+        <option>kidneybeans</option>
+        <option>pigeonpeas</option>
+        <option>mothbeans</option>
+        <option>mungbean</option>
+        <option>blackgram</option>
+        <option>lentil</option>
+        <option>pomegranate</option>
+        <option>banana</option>
+        <option>mango</option>
+        <option>grapes</option>
+        <option>watermelon</option>
+        <option>muskmelon</option>
+        <option>apple</option>
+        <option>orange</option>
+        <option>papaya</option>
+        <option>coconut</option>
+        <option>cotton</option>
+        <option>jute</option>
+        <option>coffee</option>
+</select>
+
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="mb-3"><button class="btn btn-primary text-center" type="submit">Predict</button></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2022 Copyright Text</p>
+        </div>
+    </footer>
+    <script src="/static/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script src="/static/assets/js/vanilla-zoom.js"></script>
+    <script src="/static/assets/js/theme.js"></script>
+    <script src="/static/assets/js/cities.js"></script>
+    <script src="/static/assets/js/validation.js"></script>
+</body>
+
+</html>
