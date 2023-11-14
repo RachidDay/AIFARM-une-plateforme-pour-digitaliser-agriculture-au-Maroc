@@ -1,40 +1,40 @@
-# AIFARM: Intelligent Agricultural Decision-Making Platform
+# AIFARM: Votre succès agricole commence avec AIFARM. Ensemble, cultivons l'avenir !
 
-<img width="911" alt="image" src="https://github.com/RachidDay/AIFARM/assets/93099244/03f973a8-c383-4ff8-995d-9ed453a4fb5d">
+Bienvenue sur la plateforme AIFARM, votre assistant intelligent pour une agriculture optimisée au Maroc.
+
+![image](https://github.com/RachidDay/AIFARM/assets/93099244/f4167126-cb18-47ad-a234-415d97a4b95f)
 
 ## About AIFARM
 
-AIFARM is an open-source web application leveraging advanced machine learning to empower Moroccan farmers with intelligent decision-making tools for their agricultural strategies.
+AIFARM est une application web open-source qui utilise des techniques avancées d'apprentissage automatique pour fournir aux agriculteurs marocains des outils de prise de décision intelligente pour leurs stratégies agricoles. 
 
-With uncertain irrigation conditions and soil quality challenges, our AI models provide precise predictions and recommendations to enhance agricultural production quality and accuracy.
+Face à des conditions d'irrigation incertaines et à des défis liés à la qualité des sols, nos modèles d'IA fournissent des prédictions précises et des recommandations pour améliorer la qualité et la précision de la production agricole.
 
 ## Features
 
-### Crop Recommendation
+<img width="553" alt="image" src="https://github.com/RachidDay/AIFARM/assets/93099244/b13a42b6-ad02-4c2a-a0c9-5be0fdf6555b">
+
+### Recommandation de Culture
+
+En tenant compte des conditions du sol et d'autres facteurs environnementaux, AIFARM conseille les meilleures cultures à planter, adaptées à l'écosystème unique de votre ferme.
+
+<img width="377" alt="image" src="https://github.com/RachidDay/AIFARM/assets/93099244/0fd73b0c-51cb-47e3-bf44-0eb437aa9e61">
+
+### Recommandation d'Engrais
+
+Trouvez les engrais les plus adaptés pour stimuler votre récolte, en fonction des caractéristiques de votre sol.
+
+<img width="389" alt="image" src="https://github.com/RachidDay/AIFARM/assets/93099244/cf6be019-4522-4e4e-ba0a-9c7b8c3d1317">
 
 
-Utilizing soil conditions and other environmental factors, AIFARM advises the best crops to plant, tailored to your farm's unique ecosystem.
+## Support
 
-### Fertilizer Recommendation
+Si vous avez besoin d'aide ou si vous avez des questions, n'hésitez pas à nous contacter
 
+<img width="377" alt="image" src="https://github.com/RachidDay/AIFARM/assets/93099244/d1d44b01-799d-429e-8385-b44e9014ea33">
 
-Find the most suitable fertilizers to boost your harvest, based on your soil's characteristics.
+## Team
 
-### Agricultural Marketplace
-A one-stop shop for high-quality fertilizers, electronic components, sensors, and measurement tools.
+![image](https://github.com/RachidDay/AIFARM/assets/93099244/e962e607-8c07-4a1f-8c51-fbef14e1fa4c)
 
-## Objectives
-
-Our aim is to develop an intelligent application for both web and mobile platforms that provides:
-
-- Predictions for the best grains to cultivate.
-- Recommendations for the most effective fertilizers.
-- An agricultural marketplace for essential farming supplies.
-
-## Getting Started
-
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Install the dependencies.
-4. Run the application.
 
