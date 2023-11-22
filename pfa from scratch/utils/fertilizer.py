@@ -1,92 +1,95 @@
 fertilizer_dic = {
-        'NHigh': """The N value of soil is high and might give rise to weeds.
-        <br/> Please consider the following suggestions:
+    'NHigh': """La valeur N du sol est élevée et pourrait favoriser la croissance des mauvaises herbes.
+    <br/> Veuillez considérer les suggestions suivantes :
 
-        <br/><br/> 1. <i> Manure </i> – adding manure is one of the simplest ways to amend your soil with nitrogen. Be careful as there are various types of manures with varying degrees of nitrogen.
+    <br/><br/> 1. <i> Fumier </i> – ajouter du fumier est l'une des manières les plus simples d'enrichir votre sol en azote. Soyez prudent car il existe différents types de fumiers avec des teneurs variables en azote.
 
-        <br/> 2. <i>Coffee grinds </i> – use your morning addiction to feed your gardening habit! Coffee grinds are considered a green compost material which is rich in nitrogen. Once the grounds break down, your soil will be fed with delicious, delicious nitrogen. An added benefit to including coffee grounds to your soil is while it will compost, it will also help provide increased drainage to your soil.
+    <br/> 2. <i> Marc de café </i> – utilisez votre addiction matinale pour nourrir votre jardinage ! Le marc de café est considéré comme un compost vert riche en azote. Une fois décomposé, votre sol sera enrichi en azote délicieux. Un avantage supplémentaire d'inclure du marc de café à votre sol est qu'il améliorera également le drainage.
 
-        <br/>3. <i>Plant nitrogen fixing plants</i> – planting vegetables that are in Fabaceae family like peas, beans and soybeans have the ability to increase nitrogen in your soil
+    <br/>3. <i> Planter des plantes fixatrices d'azote </i> – planter des légumes de la famille des Fabaceae comme les pois, les haricots et les sojas peut augmenter l'azote dans votre sol.
 
-        <br/>4. Plant ‘green manure’ crops like cabbage, corn and brocolli
+    <br/>4. Planter des cultures d’‘engrais vert’ comme le chou, le maïs et le brocoli.
 
-        <br/>5. <i>Use mulch (wet grass) while growing crops</i> - Mulch can also include sawdust and scrap soft woods""",
+    <br/>5. <i> Utiliser du paillis (herbe humide) pendant la croissance des cultures </i> - Le paillis peut également inclure de la sciure et des déchets de bois tendre.""",
 
-        'Nlow': """The N value of your soil is low.
-        <br/> Please consider the following suggestions:
-        <br/><br/> 1. <i>Add sawdust or fine woodchips to your soil</i> – the carbon in the sawdust/woodchips love nitrogen and will help absorb and soak up and excess nitrogen.
+    'Nlow': """La valeur N de votre sol est faible.
+    <br/> Veuillez considérer les suggestions suivantes :
+    <br/><br/> 1. <i> Ajouter de la sciure ou des copeaux de bois fins à votre sol </i> – le carbone dans la sciure/copeaux de bois aime l'azote et aidera à absorber et retenir tout excès d'azote.
 
-        <br/>2. <i>Plant heavy nitrogen feeding plants</i> – tomatoes, corn, broccoli, cabbage and spinach are examples of plants that thrive off nitrogen and will suck the nitrogen dry.
+    <br/>2. <i> Planter des plantes à forte consommation d'azote </i> – les tomates, le maïs, le brocoli, le chou et les épinards sont des exemples de plantes qui prospèrent grâce à l'azote et qui épuiseront l'azote du sol.
 
-        <br/>3. <i>Water</i> – soaking your soil with water will help leach the nitrogen deeper into your soil, effectively leaving less for your plants to use.
+    <br/>3. <i> Eau </i> – arroser abondamment votre sol aidera à lessiver l'azote plus profondément dans le sol, laissant ainsi moins d'azote disponible pour vos plantes.
 
-        <br/>4. <i>Sugar</i> – In limited studies, it was shown that adding sugar to your soil can help potentially reduce the amount of nitrogen is your soil. Sugar is partially composed of carbon, an element which attracts and soaks up the nitrogen in the soil. This is similar concept to adding sawdust/woodchips which are high in carbon content.
+    <br/>4. <i> Sucre </i> – Des études limitées ont montré que l'ajout de sucre à votre sol peut aider à réduire potentiellement la quantité d'azote dans votre sol. Le sucre est partiellement composé de carbone, un élément qui attire et absorbe l'azote dans le sol. C'est un concept similaire à l'ajout de sciure/copeaux de bois qui sont riches en carbone.
 
-        <br/>5. Add composted manure to the soil.
+    <br/>5. Ajouter du fumier composté au sol.
 
-        <br/>6. Plant Nitrogen fixing plants like peas or beans.
+    <br/>6. Planter des plantes fixatrices d'azote comme les pois ou les haricots.
 
-        <br/>7. <i>Use NPK fertilizers with high N value.
+    <br/>7. <i> Utiliser des engrais NPK avec une valeur élevée en N.
 
-        <br/>8. <i>Do nothing</i> – It may seem counter-intuitive, but if you already have plants that are producing lots of foliage, it may be best to let them continue to absorb all the nitrogen to amend the soil for your next crops.""",
+    <br/>8. <i> Ne rien faire </i> – Cela peut sembler contre-intuitif, mais si vous avez déjà des plantes qui produisent beaucoup de feuilles, il peut être préférable de les laisser continuer à absorber tout l'azote pour amender le sol pour vos prochaines cultures.""",
 
-        'PHigh': """The P value of your soil is high.
-        <br/> Please consider the following suggestions:
+    'PHigh': """La valeur P de votre sol est élevée.
+    <br/> Veuillez considérer les suggestions suivantes :
 
-        <br/><br/>1. <i>Avoid adding manure</i> – manure contains many key nutrients for your soil but typically including high levels of phosphorous. Limiting the addition of manure will help reduce phosphorus being added.
+    <br/><br/>1. <i> Éviter d'ajouter du fumier </i> – le fumier contient de nombreux nutriments clés pour votre sol mais inclut généralement des niveaux élevés de phosphore. Limiter l'ajout de fumier aidera à réduire le phosphore ajouté.
 
-        <br/>2. <i>Use only phosphorus-free fertilizer</i> – if you can limit the amount of phosphorous added to your soil, you can let the plants use the existing phosphorus while still providing other key nutrients such as Nitrogen and Potassium. Find a fertilizer with numbers such as 10-0-10, where the zero represents no phosphorous.
+    <br/>2. <i> Utiliser uniquement des engrais sans phosphore </i> – si vous pouvez limiter la quantité de phosphore ajoutée à votre sol, vous pouvez laisser les plantes utiliser le phosphore existant tout en fournissant d'autres nutriments clés tels que l'Azote et le Potassium. Trouvez un engrais avec des chiffres tels que 10-0-10, où le zéro représente l'absence de phosphore.
 
-        <br/>3. <i>Water your soil</i> – soaking your soil liberally will aid in driving phosphorous out of the soil. This is recommended as a last ditch effort.
+    <br/>3. <i> Arroser votre sol </i> – arroser abondamment votre sol aidera à éliminer le phosphore du sol. Ceci est recommandé comme un dernier recours.
 
-        <br/>4. Plant nitrogen fixing vegetables to increase nitrogen without increasing phosphorous (like beans and peas).
+    <br/>4. Planter des légumes fixateurs d'azote pour augmenter l'azote sans augmenter le phosphore (comme les haricots et les pois).
 
-        <br/>5. Use crop rotations to decrease high phosphorous levels""",
+    <br/>5. Utiliser des rotations de cultures pour diminuer les niveaux élevés de phosphore""",
 
-        'Plow': """The P value of your soil is low.
-        <br/> Please consider the following suggestions:
+    'Plow': """La valeur P de votre sol est faible.
+    <br/> Veuillez considérer les suggestions suivantes :
 
-        <br/><br/>1. <i>Bone meal</i> – a fast acting source that is made from ground animal bones which is rich in phosphorous.
+    <br/><br/>1. <i> Farine d'os </i> – une source rapide composée d'os d'animaux moulus qui est riche en phosphore.
 
-        <br/>2. <i>Rock phosphate</i> – a slower acting source where the soil needs to convert the rock phosphate into phosphorous that the plants can use.
+    <br/>2. <i> Phosphate de roche </i> – une source plus lente où le sol doit convertir le phosphate de roche en phosphore que les plantes peuvent utiliser.
 
-        <br/>3. <i>Phosphorus Fertilizers</i> – applying a fertilizer with a high phosphorous content in the NPK ratio (example: 10-20-10, 20 being phosphorous percentage).
+    <br/>3. <i> Engrais phosphorés </i> – appliquer un engrais avec une teneur élevée en phosphore dans le ratio NPK (exemple : 10-20-10, le 20 représentant le pourcentage de phosphore).
 
-        <br/>4. <i>Organic compost</i> – adding quality organic compost to your soil will help increase phosphorous content.
+    <br/>4. <i> Compost organique </i> – ajouter du compost organique de qualité à votre sol aidera à augmenter la teneur en phosphore.
 
-        <br/>5. <i>Manure</i> – as with compost, manure can be an excellent source of phosphorous for your plants.
+    <br/>5. <i> Fumier </i> – comme avec le compost, le fumier peut être une excellente source de phosphore pour vos plantes.
 
-        <br/>6. <i>Clay soil</i> – introducing clay particles into your soil can help retain & fix phosphorus deficiencies.
+    <br/>6. <i> Sol argileux </i> – introduire des particules d'argile dans votre sol peut aider à retenir et corriger les carences en phosphore.
 
-        <br/>7. <i>Ensure proper soil pH</i> – having a pH in the 6.0 to 7.0 range has been scientifically proven to have the optimal phosphorus uptake in plants.
+    <br/>7. <i> Assurer un pH du sol approprié </i> – avoir un pH dans la plage de 6,0 à 7,0 a été scientifiquement prouvé pour avoir une absorption optimale du phosphore dans les plantes.
 
-        <br/>8. If soil pH is low, add lime or potassium carbonate to the soil as fertilizers. Pure calcium carbonate is very effective in increasing the pH value of the soil.
+    <br/>8. Si le pH du sol est bas, ajouter de la chaux ou du carbonate de potassium au sol comme engrais. Le carbonate de calcium pur est très efficace pour augmenter la valeur du pH du sol.
 
-        <br/>9. If pH is high, addition of appreciable amount of organic matter will help acidify the soil. Application of acidifying fertilizers, such as ammonium sulfate, can help lower soil pH""",
+    <br/>9. Si le pH est élevé, l'ajout d'une quantité appréciable de matière organique aidera à acidifier le sol. L'application d'engrais acidifiants, comme le sulfate d'ammonium, peut aider à abaisser le pH du sol""",
 
-        'KHigh': """The K value of your soil is high</b>.
-        <br/> Please consider the following suggestions:
+    'KHigh': """La valeur K de votre sol est élevée.
+    <br/> Veuillez considérer les suggestions suivantes :
 
-        <br/><br/>1. <i>Loosen the soil</i> deeply with a shovel, and water thoroughly to dissolve water-soluble potassium. Allow the soil to fully dry, and repeat digging and watering the soil two or three more times.
+    <br/><br/>1. <i> Aérer le sol </i> en profondeur avec une pelle, et arroser abondamment pour dissoudre le potassium soluble dans l'eau. Laisser le sol sécher complètement, et répéter le creusement et l'arrosage deux ou trois fois de plus.
 
-        <br/>2. <i>Sift through the soil</i>, and remove as many rocks as possible, using a soil sifter. Minerals occurring in rocks such as mica and feldspar slowly release potassium into the soil slowly through weathering.
+    <br/>2. <i> Tamiser le sol </i>, et retirer autant de pierres que possible, en utilisant un tamis à sol. Les minéraux présents dans les roches comme le mica et le feldspath libèrent lentement du potassium dans le sol par altération.
 
-        <br/>3. Stop applying potassium-rich commercial fertilizer. Apply only commercial fertilizer that has a '0' in the final number field. Commercial fertilizers use a three number system for measuring levels of nitrogen, phosphorous and potassium. The last number stands for potassium. Another option is to stop using commercial fertilizers all together and to begin using only organic matter to enrich the soil.
+    <br/>3. Arrêter d'appliquer des engrais commerciaux riches en potassium. Appliquer uniquement des engrais commerciaux qui ont un '0' dans le dernier champ de nombre. Les engrais commerciaux utilisent un système à trois nombres pour mesurer les niveaux d'azote, de phosphore et de potassium. Le dernier nombre représente le potassium. Une autre option est d'arrêter complètement d'utiliser des engrais commerciaux et de commencer à utiliser uniquement de la matière organique pour enrichir le sol.
+    
+    <br/>4. Mélangez des coquilles d'œufs broyées, des coquillages écrasés, de la cendre de bois ou du phosphate de roche douce au sol pour ajouter du calcium. Incorporez jusqu'à 10 pour cent de compost organique pour aider à amender et équilibrer le sol.
 
-        <br/>4. Mix crushed eggshells, crushed seashells, wood ash or soft rock phosphate to the soil to add calcium. Mix in up to 10 percent of organic compost to help amend and balance the soil.
+    <br/>5. Utilisez des engrais NPK avec de faibles niveaux de K et des engrais organiques car ils ont des valeurs NPK faibles.
 
-        <br/>5. Use NPK fertilizers with low K levels and organic fertilizers since they have low NPK values.
-
-        <br/>6. Grow a cover crop of legumes that will fix nitrogen in the soil. This practice will meet the soil’s needs for nitrogen without increasing phosphorus or potassium.
+    <br/>6. Cultivez une culture de couverture de légumineuses qui fixera l'azote dans le sol. Cette pratique répondra aux besoins du sol en azote sans augmenter le phosphore ou le potassium.
+    <br/>4. Mélangez des coquilles d'œufs broyées, des coquillages écrasés, de la cendre de bois ou du phosphate de roche douce au sol pour ajouter du calcium. Incorporez jusqu'à 10 pour cent de compost organique pour aider à amender et équilibrer le sol.
+    <br/>5. Utilisez des engrais NPK avec de faibles niveaux de K et des engrais organiques car ils ont des valeurs NPK faibles.
+    <br/>6. Cultivez une culture de couverture de légumineuses qui fixera l'azote dans le sol. Cette pratique répondra aux besoins du sol en azote sans augmenter le phosphore ou le potassium.
         """,
 
-        'Klow': """The K value of your soil is low.
-        <br/>Please consider the following suggestions:
-
-        <br/><br/>1. Mix in muricate of potash or sulphate of potash
-        <br/>2. Try kelp meal or seaweed
-        <br/>3. Try Sul-Po-Mag
-        <br/>4. Bury banana peels an inch below the soils surface
-        <br/>5. Use Potash fertilizers since they contain high values potassium
+        'Klow': """La valeur de K de votre sol est faible.
+<br/>Veuillez considérer les suggestions suivantes :
+        <br/><br/>1. 1. Mélangez du muriate de potasse ou du sulfate de potasse
+        <br/>2. Essayez de la farine de varech ou des algues
+        <br/>3. Essayez du Sul-Po-Mag
+        <br/>4. Enterrez des pelures de banane à un pouce sous la surface du sol
+        <br/>5. Utilisez des engrais à base de potasse puisqu'ils contiennent des valeurs élevées de potassium
         """
+
     }
